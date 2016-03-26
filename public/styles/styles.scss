@@ -1,0 +1,68 @@
+// Monserrat font
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+// colors: https://color.adobe.com/Flat-design-colors-1-color-theme-3044245/?showPublished=true
+$colors: (
+  ocean : #334D5C,
+  teal: #45B29D,
+  sun: #EFC94C,
+  sunset: #E27A3F,
+  rust: #8F192A
+);
+@function color($color) {
+  @return map-get($colors, $color);
+}
+
+// Base styles
+*,*:before,*:after{
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+  background: color(ocean);
+  color: black;
+}
+body{
+  width: auto;
+  max-width: 60rem;
+  margin: auto;
+  padding: 2rem;
+  font: 400 160%/1.8 Montserrat, sans-serif;
+}
+a{
+  color: color(rust);
+}
+img{
+  width: 100%;
+  height: auto;
+}
+
+// Demo-specific styles
+h1{
+  color: white;
+}
+h3{
+  margin: 1em 0 .5em;
+}
+.demo-links{
+  margin-bottom: 2rem;
+  padding: 0;
+  li{
+    display: inline-block;
+    margin: 0 2rem 0 0;
+  }
+}
+.demo-material{
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: white;
+  color: #333;
+  &-heading{
+    margin: -2rem -2rem 2rem;
+    padding: 2rem;
+    border-bottom: .1rem solid color(ocean);
+    color: color(ocean);
+    line-height: 1.3;
+  }
+}

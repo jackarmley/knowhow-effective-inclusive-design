@@ -1,0 +1,32 @@
+doctype html
+html(lang="en-GB")
+head
+  title= locals.title
+  meta(content="width=device-width, initial-scale=1.0" name="viewport")
+  link(rel="stylesheet" href="./public/styles/styles.css")
+body
+  main(role="main")
+
+    h1= locals.title
+
+    //- section.demo-material
+    //-   h2.demo-material-heading Slides
+    //-   p
+    //-     a(href="https://docs.google.com/presentation/d/1UB3LlJvSvp4g_1fEL2t6TjaC4dHbAd0frtVV0R4fOTg/edit?usp=sharing")
+    //-       | View the slides on Google Drive
+
+    section.demo-material
+      h2.demo-material-heading Demos
+      p: a(href="http://codepen.io/collection/APoOkq/") Collection on Codepen
+      -each demos, demoTitle in locals.demos
+        h3= demoTitle
+        ol
+          -for(i=0;i<demos.length;i++)
+
+            -var editableLink = locals.codepen + 'pen/' + demos[i].url + '?editors=1000'
+            -var fullscreenLink = locals.codepen + 'debug/' + demos[i].url
+
+            li= demos[i].name
+              ul.demo-links
+                li: a(href=editableLink target="_blank" aria-label=demos[i].name + " - editable link") Editable
+                li: a(href=fullscreenLink target="_blank" aria-label=demos[i].name + " - full screen link") Full screen

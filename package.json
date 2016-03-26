@@ -1,0 +1,21 @@
+{
+  "name": "know-how",
+  "version": "0.0.1",
+  "description": "Know How Presentation Slides",
+  "author": "Jack Armley",
+  "private": false,
+  "licence": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "gulp": "3.9.0",
+    "gulp-data": "1.2.1",
+    "gulp-sass": "~2.1.1",
+    "gulp-jade": "1.1.0"
+  },
+  "devDependencies": {
+    "gulp-connect": "^3.2.1"
+  }
+}
