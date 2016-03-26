@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  background: #334D5C;
+  color: #f9fafb; }
+
+body {
+  width: auto;
+  max-width: 60rem;
+  margin: auto;
+  padding: 2rem;
+  font: 400 160%/1.8 Montserrat, sans-serif; }
+
+h1, h2, h3 {
+  color: #45B29D; }
+
+a {
+  color: #45B29D; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+/*# sourceMappingURL=styles.css.map */

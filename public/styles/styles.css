@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  background: #334D5C;
+  color: black; }
+
+body {
+  width: auto;
+  max-width: 60rem;
+  margin: auto;
+  padding: 2rem;
+  font: 400 160%/1.8 Montserrat, sans-serif; }
+
+a {
+  color: #8F192A; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+h1 {
+  color: white; }
+
+h3 {
+  margin: 1em 0 .5em; }
+
+.demo-links {
+  margin-bottom: 2rem;
+  padding: 0; }
+  .demo-links li {
+    display: inline-block;
+    margin: 0 2rem 0 0; }
+
+.demo-material {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: white;
+  color: #333; }
+  .demo-material-heading {
+    margin: -2rem -2rem 2rem;
+    padding: 2rem;
+    border-bottom: 0.1rem solid #334D5C;
+    color: #334D5C;
+    line-height: 1.3; }
