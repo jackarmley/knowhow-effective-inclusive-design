@@ -2,4 +2,5 @@
 # *.css
 *.css.map
 # *.html
+.DS_Store
 .sass-cache
