@@ -59,6 +59,12 @@ var locals = {
                 'name' : 'Aria tabs',
                 'url' : 'BKWgEz'
             }
+        ],
+        'Golden rule 4: Elements have sufficient color contrast' : [
+            {
+                'name' : 'Colour contrast test',
+                'url' : 'oxejqE'
+            }
         ]
     }
 };
