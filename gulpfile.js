@@ -44,6 +44,10 @@ var locals = {
         ],
         'Golden rule 3: Markup is fit for purpose' : [
             {
+                'name' : 'Checkbox served two ways - ARIA and native',
+                'url' : 'grxpeG'
+            },
+            {
                 'name' : 'For a keyboard-only user, only one button is actually a button',
                 'url' : 'PNWgPm'
             },
